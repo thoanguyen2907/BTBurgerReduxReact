@@ -1,26 +1,18 @@
-import React from 'react';
-import logo from './logo.svg';
-import './App.css';
-
-function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+import React, { Component } from 'react'
+// import BaiTapBurger from './BaiTapBurger/BaiTapBurger'; 
+import BTBurger from './BTBurgerSua/BTBurger'; 
+import DemoJSS from './JSS_StyledComponent/DemoJSS/DemoJSS'; 
+import DemoTheme from './JSS_StyledComponent/Themes/DemoTheme'; 
+import ToDoList from './JSS_StyledComponent/BaiTapStyleComponent/ToDoList/ToDoList'; 
+export default class App extends Component {
+  render() {
+    return (
+      <div className="container">
+        <BTBurger/>
+        {/* <DemoJSS/> */}
+        {/* <DemoTheme/> */}
+        {/* <ToDoList/> */}
+      </div>
+    )
+  }
 }
-
-export default App;

@@ -1,0 +1,42 @@
+
+.burger__bread__top{
+    height: 100px; 
+    width: 400px; 
+    margin: 0 auto;
+    display: block;
+    background:#D2691E; 
+    border-radius: 60px 60px 0 0;
+}
+.burger__bread__bottom{
+    height: 100px; 
+    width: 400px; 
+    margin: 0 auto;
+    display: block;
+    background:#D2691E; 
+    border-radius: 0 0 30px 30px;
+}
+.salad{
+    height: 18px; 
+    width: 500px; 
+    margin: 10px auto;
+    display: block;
+    border-radius: 20px;
+    background:#4CA64C; 
+
+}
+.cheese{
+    height: 35px; 
+    width: 450px; 
+    margin: 10px auto;
+    display: block;
+    border-radius: 20px;
+    background:#ece65d; 
+}
+.beef{
+    height: 50px; 
+    width: 400px; 
+    margin: 10px auto;
+    display: block;
+    border-radius: 15px;
+    background:#7a4444; 
+}
