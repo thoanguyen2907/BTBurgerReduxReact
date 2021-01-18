@@ -50,7 +50,6 @@ export const ToDoListReducer = (state = initialState, action) => {
         case "update_task":
 
             state.taskEdit = { ...state.taskEdit, taskName: action.taskName };
-            console.log(state.taskEdit);
             taskListUpdate = [...state.taskList];
             index = taskListUpdate.findIndex(task => task.id === state.taskEdit.id);
             if (index !== -1) {

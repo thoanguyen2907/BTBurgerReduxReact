@@ -86,9 +86,7 @@ class ToDoList extends Component {
           return  <option value={theme.id} key={index}>{theme.name}</option>
       })
     }
-
     render() {
-        
         return (
             <ThemeProvider theme={this.props.themeToDoList}>
                 <Container className="w-50">
