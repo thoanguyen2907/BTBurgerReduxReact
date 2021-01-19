@@ -3,7 +3,7 @@
 
 Live Demo : 
 
-https://thoanguyen-frontend-cv.netlify.app/work.html 
+https://burgerorderreact.herokuapp.com/?fbclid=IwAR2lvwdCDP2ll_93hlQVuPmn_Gk9zKT3ImoaZCzjcdMooPqW3bq3Ao0jEvo
 
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
