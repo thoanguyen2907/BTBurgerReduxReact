@@ -1,10 +1,7 @@
 import {combineReducers} from 'redux'; 
-import BaiTapBurgerReducer from './BaiTapBurgerReducer'; 
-import BurgerReducer from './BTBurgerSuaReducer'; 
-import ToDoListReducer from './ToDoListReducer'; 
+import BurgerReducer from './BurgerReducer'; 
+
 const rootReducer = combineReducers({
-    BaiTapBurgerReducer,
-    BurgerReducer, 
-    ToDoListReducer
+    BurgerReducer,
 }); 
 export default rootReducer; 

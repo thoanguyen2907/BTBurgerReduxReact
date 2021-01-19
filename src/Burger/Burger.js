@@ -2,19 +2,10 @@ import React, { Component } from 'react';
 import { connect } from 'react-redux';
 import './Burger.css';
 
-class BTBurger extends Component {
+class Burger extends Component {
     renderBreadMid = () =>{
         let {burger} = this.props;
-        // let content = []; 
-        // for (let propBurger in burger){
-        //     let breadMid = []; 
-        //     for (let i = 0; i < burger[propBurger], i++){
-        //         breadMid.push(<div key={i} className={propsBurger}></div>);
-        //     }
-        //     content.push(breadMid); 
-        // }
-        // return content; 
-        //[[salad: 1], [cheese:1], [beef:2]];
+      
     return Object.entries(burger).map(([propsBurger,value], index)=>{ 
         let breadMid = []; 
         for (let i = 0; i < value; i++){
@@ -23,10 +14,7 @@ class BTBurger extends Component {
         return breadMid; 
     }); 
     }
-    // tangGiam = (value, number) =>{
-    //     console.log("value", value);
-    //     console.log("number", number);
-    // }
+   
     renderMenu = () =>{
         let {menu, burger} = this.props; 
         return Object.entries(menu).map(([itemMenu, price], index)=>{
@@ -45,7 +33,7 @@ class BTBurger extends Component {
 
         return (
             <div>            
-                <h1 className="my-5 text-center">BTBurger CyberSoft </h1>
+                <h1 className="my-5 text-center">Burger Menu Order </h1>
                 <div className="row my-4">
                     <div className="col-7">
                         <div className="burger__layout">
@@ -105,5 +93,5 @@ const mapDispatchToProps = dispatch =>{
         }
     }
 }
-export default connect(mapStateToProps, mapDispatchToProps)(BTBurger);
+export default connect(mapStateToProps, mapDispatchToProps)(Burger);
 
