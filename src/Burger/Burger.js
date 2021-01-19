@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 import { connect } from 'react-redux';
+import { TANG_GIAM_SO_LUONG } from '../redux/Constants/BurgerConst';
 import './Burger.css';
 
 class Burger extends Component {
@@ -85,7 +86,7 @@ const mapDispatchToProps = dispatch =>{
     return {
         tangGiam: (name, value) =>{
             let action = {
-                type:'TANG_GIAM_SO_LUONG',
+                type:TANG_GIAM_SO_LUONG,
                 name,
                 value
             }
