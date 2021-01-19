@@ -1,3 +1,9 @@
+Buger Menu Order Project using React + Redux 
+
+Features: 
+
+Add Item  ||  Adjust quality (Increase or Decrease Number )   
+
 
 ![github](https://media.giphy.com/media/xZVuLsOX5tOAUPMJ6x/giphy.gif)
 
